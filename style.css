@@ -1,0 +1,51 @@
+
+/*buttonmenucssaddition*/
+#buttonmenutable{width: 90%}
+.buttonmenucontainer
+{
+    padding: 5%;
+    margin: 5px 0 0;    
+}  
+.buttonmenuitemcontainer
+{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-top: solid 4px #444;
+    -webkit-box-shadow: 0px 0 12px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0 12px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0 12px rgba(0, 0, 0, .25);
+} 
+.buttonmenuitembackground
+{
+    display:block;
+    background-color: #FFF8DC;
+    background-repeat: no-repeat;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: justify;
+    color: #57393b;
+    font-size: 18px;
+    font-family: "Tahoma",sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px;
+}
+.buttonmenuitembackground:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-color: url(buttonmenupagearrow.png) no-repeat;
+    background-size: 24px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    position: absolute;
+    display: none;
+}
